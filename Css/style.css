@@ -141,7 +141,7 @@ i {
    
 }
 .p-filtre{ 
-    padding-left: 3.5rem;
+    padding-left: 0rem;
     font-weight: bold;
     
 }
@@ -394,7 +394,7 @@ i {
     flex: 33%;
     height: 550px;
     background-color: rgb(242, 242, 242);
-    border-radius: 25px;
+    border-radius: 15px;
     margin: 2rem;
     display: flex;
     flex-direction: column;
@@ -742,7 +742,7 @@ i {
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 65%;
     flex-direction: row;
 }
 .assistance{
