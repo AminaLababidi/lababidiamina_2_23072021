@@ -20,26 +20,15 @@
     .localisation{
         padding-left: 2rem;
     }
-    .filtre {
-        margin-left: 0px;
-        /* flex-wrap: wrap; */
-        flex-direction: column;
-        align-items:normal !important;
-
+    .filtre{
+        margin-left: 3rem;
+        margin-top: 1rem;
     }
-    .filtre-mobile{
-        display: flex;
-        flex-direction: row;
-    }
+    
     .border_items{
         margin-top: 5px;
     }
-    .width-mobile-roman{
-        width: 150px;
-    }
-    .width-mobile-animaux{
-        width: 190px;
-    }
+    
     .information{
         margin-left: 2.5rem;
         margin-bottom:1rem;
@@ -296,10 +285,23 @@
     }
     .filtre {
         margin-left: 0px;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items:normal !important;
+
+    }
+    .filtre-mobile{
+        display: flex;
+        flex-direction: row;
     }
     .border_items{
         margin-top: 5px;
+    }
+    .width-mobile-roman{
+        width: 150px;
+    }
+    .width-mobile-animaux{
+        width: 190px;
     }
     .information {
         margin-left:0;

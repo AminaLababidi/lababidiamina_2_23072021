@@ -14,7 +14,7 @@ div{
 /*header*/
 
 header{
-    margin-top: 26px;
+    margin-top: 15px;
     /*  padding: 15px;*/
     display: flex;
     justify-content: center;
@@ -121,6 +121,10 @@ i {
     
 }
 
+input::placeholder {
+    color: black ;
+}
+
 .localisation button{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -154,15 +158,8 @@ i {
     align-items: center; 
     font-weight: bold;
 }
-.border_items_chill{
-    display: flex;
-    border: 2px #e0e0e0 solid;
-    border-radius: 25px;
-   
-    margin-left: 15px;
-    align-items: center; 
-    font-weight: bold;
-}
+
+
 .items{
     text-decoration: none;
     margin: 0px 10px 0px 10px;
