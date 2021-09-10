@@ -158,7 +158,10 @@ input::placeholder {
     align-items: center; 
     font-weight: bold;
 }
-
+.filtre-mobile{
+    display: flex;
+    flex-direction: row;
+}
 
 .items{
     text-decoration: none;

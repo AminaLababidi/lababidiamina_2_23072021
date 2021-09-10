@@ -243,11 +243,12 @@
     .nav{
         flex-direction: column-reverse;
         padding-top: 0;
-        height: 85px;
+        height: 55px;
         margin-bottom: 2rem;
         margin-left: 10%;
     }
     nav a {
+        padding-top: 0px;
         border-bottom: solid #d6d6d6;
         width: 40%;
     }
@@ -255,7 +256,7 @@
         color:#0065FC;
         border-bottom: 3px solid #61a0ffc2;
         border-top: hidden;
-        padding-top: 25px;
+        padding-top: 0px;
     }
     .inscription{
         margin-left: 100%;
@@ -290,10 +291,7 @@
         align-items:normal !important;
 
     }
-    .filtre-mobile{
-        display: flex;
-        flex-direction: row;
-    }
+    
     .border_items{
         margin-top: 5px;
     }
@@ -301,7 +299,7 @@
         width: 150px;
     }
     .width-mobile-animaux{
-        width: 190px;
+        width: 200px;
     }
     .information {
         margin-left:0;
