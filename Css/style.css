@@ -115,8 +115,8 @@ i {
 }
 
 .localisation input{
-    height: 33px;
-    width: 155px;
+    height: 35px;
+    width: 185px;
     border: 1px solid #979797c7;
     
 }
@@ -246,7 +246,7 @@ input::placeholder {
     margin:0;
     margin-bottom: 15px;
     flex-direction: column;
-    padding: 1rem 2rem 0rem 1rem;
+    padding: 1rem 2rem 0rem 10px;
 
 }
 #hebergements{
@@ -459,7 +459,7 @@ input::placeholder {
    margin: 0px  0px  5px 0px;
 }
 .p-soleil{
-  margin: 2px  0px  15px 0px;
+  margin: 2px  0px  35px 0px;
    font-size: 15px;
 }
 .h-eau{
@@ -467,7 +467,7 @@ input::placeholder {
    margin: 0px  0px  5px 0px;
 }
 .p-eau{
-  margin: 0px  0px  0px 0px;
+  margin: 0px  0px  20px 0px;
    font-size: 15px;
 }
 .h-blanc{
@@ -476,7 +476,7 @@ input::placeholder {
 }
 
 .p-blanc{
-  margin: 2px  0px  15px 0px;
+  margin: 2px  0px  35px 0px;
   font-size: 15px;
 }
 /*Section Activite*/
@@ -494,8 +494,8 @@ input::placeholder {
     text-align: start;
     align-self: flex-start;
     flex: 80%;
-    margin: 15px 15px 15px 49px; 
-    padding: 2rem 0px 0px 2rem;
+    margin: 15px 15px 15px 35px; 
+    padding: 2rem 0px 0px 0rem;
     flex-direction: column;
      
 }
@@ -503,8 +503,8 @@ input::placeholder {
      
     display: flex;
     justify-content: center;
-    margin-left: 49px; 
-    margin-right: 53px;
+    margin-left: 30px; 
+    margin-right: -10px;
     flex-wrap: nowrap;
 
 }
