@@ -25,14 +25,14 @@ header{
     margin-left: 49px;
     margin-right: 49px;
 }
-#logo {
+/* #logo {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     width: 107px;
     height: 20px;
     padding-left: 2rem;
-}
+} */
 
 img{    
     max-width: 100%;
@@ -43,7 +43,7 @@ img{
 /*Navigation*/
 
 
-.nav{ 
+/*.nav{ 
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -53,7 +53,7 @@ img{
 }
 nav{
     margin-bottom: 2em;
-}
+}*/
 
 .inscription{
     color:#0065FC;
@@ -62,7 +62,7 @@ nav{
     margin-bottom: 2em;
     
 }
-nav a{
+/*nav a{
     padding: 25px;
     text-decoration: none;
     color: #000000;
@@ -74,7 +74,7 @@ nav a:hover{
     color:#0065FC;
     border-top: 3px solid #61a0ffc2;
     padding-top: 25px;
-}
+}*/
 
 /*Titre Principal*/
 h1{
@@ -774,5 +774,110 @@ h3{
     text-decoration: none;
     color: #6d6c6d;
     margin-bottom: 1rem;
+    
+}
+/*  Rajout     */
+
+.navItem a
+{
+    text-decoration: none;
+    padding: 0px;
+}
+
+
+a
+{
+    text-decoration: none;
+    padding: 0px;
+    color: rgb(14, 13, 13);
+}
+
+/*Header avec logo, navigation et s'inscrire*/
+header
+{
+    width: 95%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+}
+
+#logo
+{
+    display: flex;
+    margin-top: auto;
+}
+
+nav
+{
+    display: flex;
+    margin-left: auto;
+}
+.navBar
+{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navItem
+{
+    padding: 30px 35px 0px 35px;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navItem:hover
+{
+    border-top: solid 3px;
+    border-color: #0065FC;
+    font-size: 1.2em;
+    color: #0065FC;
+}
+
+.navItem a:hover
+{
+    color: #0065FC;
+}
+
+.navSignUp
+{
+    display: flex;
+    align-items: center;
+    padding: 30px 35px 0px 35px;
+    font-size: 1em;
+}
+
+.signUpHeader
+{
+    display: flex;
+    color:#0065FC;
+    font-weight: bolder;
+}
+
+.logoReservia
+{
+    display: flex;
+    align-items: flex-end;
+    width: 95px;
+    height: auto;
+}
+
+ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+li
+{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px 0px;
+    margin-left: 0px;
+    font-size: 15px;
     
 }

@@ -230,10 +230,13 @@
     }
     #logo {
         padding-left: 1rem;
+        margin-top: 21px;
     }
     h1 {
         margin-left: 0px;
+        padding-right: 70px;
         padding-left: 1rem;
+        white-space: revert;
     }
     nav{
     justify-content: space-around;
@@ -247,7 +250,7 @@
         margin-bottom: 2rem;
         margin-left: 10%;
     }
-    nav a {
+    /*nav a {
         padding-top: 0px;
         border-bottom: solid #d6d6d6;
         width: 40%;
@@ -257,7 +260,7 @@
         border-bottom: 3px solid #61a0ffc2;
         border-top: hidden;
         padding-top: 0px;
-    }
+    }*/
     .inscription{
         margin-left: 100%;
     }
@@ -475,6 +478,59 @@
         margin: 1rem 1rem 0 1rem;
         width: 100%;
     }
+    /*Rajout*/
+header
+{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+nav
+{
+    order: 2;
+    margin-left: 0;
+    width: 100%;
+}
+.navBar
+{
+    order: 2;
+    flex: 1;
+    width: 100%;
+    margin: 0;
+}
+
+.navItem
+{
+    flex: 1;
+    padding: 30px 20px 10px 20px;
+    text-align: center;
+    border-bottom: solid 3px ;
+    border-color: #F2F2F2;
+}
+
+.navItem:hover
+{
+    border-bottom: solid 3px;
+    border-top: none;
+    border-color: #0065FC;
+    font-size: 1.2em;
+}
+
+.navHebergements, .navActivites
+{
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+
+.logoReservia
+{
+    margin-left: 15px;
+}
 }
 
 @media (max-width: 520px){
