@@ -221,6 +221,15 @@
         margin-left: 0px;
         
     }
+    .p-soleil {
+        margin-bottom: 13px;
+    }
+    .p-blanc {
+        margin-bottom: 13px;
+    }
+    .p-eau {
+        margin-bottom: 15px
+    }
 
 }
 @media (max-width: 764px){
@@ -497,8 +506,7 @@ nav
 }
 .navBar
 {
-    order: 2;
-    flex: 1;
+    
     width: 100%;
     margin: 0;
 }
@@ -552,4 +560,7 @@ nav
     .p-eau{
         margin-bottom: 15px;
     }
+
+    
+
 }
